@@ -39,6 +39,13 @@ Explore practicality of GHCJS is for use in:
    something about 'Booting GHCJS (this will take a long time)' so I figure it
    is stuff that will be needed evenrually.
 0. It _is_ taking a long time. see you back here in a while...
+0. Ok, back. Actually stack _does_ use hpack in this version. awesome
+0. fix dependency on base and yaml error in lib deps
+0. fix type prob in lib
+0. `stack build` woohoo!
+0. `stack test` takes a long time...hang. see https://github.com/ghcjs/ghcjs/issues/668
+0. get rid of tasty and taty hunit deps for now and `stack test` and..........woohoo!
+
 
 
 
