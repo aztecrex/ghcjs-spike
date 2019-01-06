@@ -2,5 +2,5 @@ module Lib where
 
 
 add :: Integer -> Integer
-add = (+)
+add = (+ 19)
 

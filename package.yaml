@@ -12,11 +12,12 @@ extra-source-files:
 description: README on GitHub at <https://github.com/aztecrex/ghcjs-spike>
 
 dependencies:
+  - base
   - text
 
 library:
   source-dirs: src
-  dependencies:
+  dependencies: []
 
 executables:
   ghcjs-exe:
