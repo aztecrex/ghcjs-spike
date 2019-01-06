@@ -1,0 +1,74 @@
+name: ghcjs-spike
+version: 0.1.0.0
+license: AllRightsReserved
+author: "Greg Wiley"
+maintainer: "aztec.rex@jammm.com"
+copyright: "2018 Greg Wiley"
+
+extra-source-files:
+  - README.md
+
+
+description: README on GitHub at <https://github.com/aztecrex/ghcjs-spike>
+
+dependencies:
+  - text
+
+library:
+  source-dirs: src
+  dependencies:
+
+executables:
+  ghcjs-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - ghcjs-spike
+
+tests:
+  payout-test:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+      - -threaded
+      - -fprint-potential-instances
+      - -rtsopts
+      - -with-rtsopts=-N
+      - -Wall
+    dependencies:
+      - ghcjs-spike
+      - tasty
+      - tasty-hunit
+
+default-extensions:
+  - ConstraintKinds
+  - DataKinds
+  - DefaultSignatures
+  - DeriveAnyClass
+  - DeriveFunctor
+  - DeriveGeneric
+  - ExistentialQuantification
+  - FlexibleContexts
+  - FlexibleInstances
+  - FunctionalDependencies
+  - GADTs
+  - MonoLocalBinds
+  - GeneralizedNewtypeDeriving
+  - KindSignatures
+  - LambdaCase
+  - MultiParamTypeClasses
+  - NamedFieldPuns
+  - OverloadedStrings
+  - RankNTypes
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TupleSections
+  - TypeApplications
+  - TypeOperators
+  - TypeFamilies
+  - InstanceSigs
+
