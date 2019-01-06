@@ -35,9 +35,9 @@ Explore practicality of GHCJS is for use in:
 0. whoops, didn't run `hpack` first so it's just building a bunch of stuff.
    I don't know if it's building everything in stackage or if it's just builing
    enough for the prim and prelude. whatever i'll wait. it's repeatedly saying
-   something about 'Bootihg GHCJS (this will take a long time)' so I figure it
+   something about 'Booting GHCJS (this will take a long time)' so I figure it
    is stuff that will be needed evenrually.
-0. It _is_ taking a long time
+0. It _is_ taking a long time. see you back here in a while...
 
 
 
