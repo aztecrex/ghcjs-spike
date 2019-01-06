@@ -9,6 +9,7 @@ Explore practicality of GHCJS is for use in:
 ## Things I care about:
 
 - executable size
+- speed of runtime initialization
 - access to AWS services
 - ability to wrap/integrate existing node/npm stuff
    - GraphQL
