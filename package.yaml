@@ -42,8 +42,6 @@ tests:
       - -Wall
     dependencies:
       - ghcjs-spike
-      - tasty
-      - tasty-hunit
 
 default-extensions:
   - ConstraintKinds
